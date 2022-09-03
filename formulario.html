@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="estilo/style.css">
+  <link rel="stylesheet" type="text/css" href="estilo/style.css" media="screen" >
   <title>Cadastro</title>
 </head>
 
@@ -52,7 +52,7 @@
       <div class="campo">
         <label for="pagamento"><strong>Forma de Pagamento</strong></label>
         <select id="pagamento">
-          <option selected disabled value="">Selecione</option>
+          <option selected disabled value="" checked>Selecione</option>
           <option value="">Cartão</option>
           <option value="">Dinheiro</option>
           <option value="">Pix</option>
@@ -61,7 +61,7 @@
 
       <fieldset class="grupo">
         <h2>Dois Sabores</h2>
-        <div class="campo">
+        <div id="check">
           <label><strong>Escolha seus sabores para meia a meia</strong></label><br><br>
           <input type="checkbox" name="calabresa" id="calabresa" value="pizza">
           <label for="calabresa"><strong>Calabresa</strong></label>
